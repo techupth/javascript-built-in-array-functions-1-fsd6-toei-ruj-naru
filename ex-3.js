@@ -8,9 +8,14 @@ const todos = [
 
 function getTodoTopics(todos) {
   // Start coding here
+  //   for (let i = 0; i < todos.length; i++) {
+  //     todos[i] = todos[i].topic;
+  //   }
+  return todos.map((value) => value.topic);
 }
+// console.log(todos.topic);
 
-getTodoTopics(todos);
+console.log(getTodoTopics(todos));
 
 /* 
 	Output:
